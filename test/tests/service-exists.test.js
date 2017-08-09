@@ -6,7 +6,7 @@ const test = require('tap').test,
 
 test(`we are checking the existance of a generic service`, function(t) {
     t.plan(1);
-    var genericServiceName = IS_WINDOWS ? 'Power' : 'ssh';
+    var genericServiceName = IS_WINDOWS ? 'Power' : 'systemd-journald';
     var service = new BackgroundService(genericServiceName);
     t.equal(service.exists(), true, `${genericServiceName} which should exis`);
 });
