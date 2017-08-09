@@ -1,0 +1,27 @@
+{
+    "name": "background-service",
+    "version": "1.0.0",
+    "description": "Cross platform node module for controling operating system services.",
+    "main": "index.js",
+    "scripts": {
+        "test": "tap test/tests/**/*.js --reporter=spec"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/danielheth/background-service.git"
+    },
+    "author": "Daniel Moran <danielheth@hotmail.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/danielheth/background-service/issues"
+    },
+    "homepage": "https://github.com/danielheth/background-service#readme",
+    "dependencies": {
+        "child_process": "^1.0.2",
+        "os": "^0.1.1",
+        "wait-until": "0.0.2"
+    },
+    "devDependencies": {
+        "tap": "^10.3.3"
+    }
+}
