@@ -2,4 +2,5 @@ language: node_js
 node_js:
 - '6.11'
 script:
+- systemctl -l
 - npm test
