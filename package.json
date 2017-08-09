@@ -11,7 +11,7 @@
         "type": "git",
         "url": "git+https://github.com/danielheth/background-service.git"
     },
-    "author": "Daniel Moran <danielheth@hotmail.com>",
+    "author": "danielheth <danielheth@hotmail.com>",
     "license": "MIT",
     "bugs": {
         "url": "https://github.com/danielheth/background-service/issues"
