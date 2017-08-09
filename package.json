@@ -4,7 +4,8 @@
     "description": "Cross platform node module for controling operating system services.",
     "main": "index.js",
     "scripts": {
-        "test": "tap test/tests/**/*.js --reporter=spec"
+        "test": "echo TODO",
+        "run-test": "tap test/tests/**/*.js --reporter=spec"
     },
     "repository": {
         "type": "git",
