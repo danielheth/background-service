@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/danielheth/background-service.svg?branch=master)](https://travis-ci.org/danielheth/background-service)
+
 # Background Service
 
 Abstracts the platform specific workflows for controlling native operating system services.
